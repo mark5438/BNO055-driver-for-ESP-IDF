@@ -25,6 +25,7 @@ int set_page(bno055_t * instance, uint8_t page)
 
 /**
 *   @brief Assign a value to specific bits in a register, and leave all other bits untouched
+*   @param instance A pointer to a bno055 object
 *   @param page The page the register address is on
 *   @param reg_address The register address
 *   @param first_bit The integer value of the first bit o be changed
